@@ -1,0 +1,21 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+    "type": "object",
+    "required": ["TEST"],
+    "properties": {
+        "TEST": {
+            "type": "object",
+            "required": ["Length"],
+            "properties": {
+                    "Length":{
+                        "type": "object",
+                        "required": ["Value","Unit"],
+                        "properties": {
+                            "Value": {"type": "number"},
+                            "Unit": {"type": "string"}
+                    }       
+                }         
+            }
+        }
+    }
+}

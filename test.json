@@ -1,0 +1,9 @@
+{
+    "$schema": "./schema.json", 
+    "TEST": {
+        "Length2": {
+            "Value":20,
+            "Unit":"mm"
+        }
+    } 
+}
